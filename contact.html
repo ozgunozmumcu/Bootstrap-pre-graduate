@@ -104,7 +104,9 @@
                     class="form-control"
                     type="text"
                     name="name"
+                    minlength="3"
                     placeholder="Full name"
+                    required
                   />
                   <label for="name">Full name</label>
                 </div>
@@ -114,6 +116,7 @@
                     type="email"
                     name="email"
                     placeholder="Email address"
+                    required
                   />
                   <label for="email">Email address</label>
                 </div>
@@ -123,6 +126,7 @@
                     type="tel"
                     name="phone-number"
                     placeholder="Phone number"
+                    required
                   />
                   <label for="phone-number">Phone number</label>
                 </div>
@@ -133,6 +137,8 @@
                     name="message"
                     placeholder="Message"
                     style="height: 10rem"
+                    minlength="20"
+                    required
                   ></textarea>
                   <label for="message">Message</label>
                 </div>
